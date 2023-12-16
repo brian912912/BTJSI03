@@ -31,10 +31,10 @@ console.log(nguoi);
 // đối tượng lồng nhau
 let nuoc = {
     name: "Vietnam",
-    danso: 100000000,
+    danso: 1000,
     thudo: {
         name: "Hanoi",
-        danso: 8000000
+        danso: 800
     }
 };
 

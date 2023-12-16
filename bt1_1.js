@@ -10,6 +10,18 @@ let min = Math.min(...arr);
 console.log("Phần tử lớn nhất là: " + max);
 console.log("Phần tử nhỏ nhất là: " + min);
 
+var first=arr[0]
+// for(i = 0; i< arr.length ; i++){
+//     if ( arr(i) > first ){
+//         first = arr[i];
+//     }
+// }
+
+// var smallest = arr[0]
+// for(i= 0 ; i< arr.length ; i++){
+//     if (arr(i) < smallest)
+//         smallest = arr[i]
+// }
 
 // c đảo ngược mảng 
 arr.reverse();
