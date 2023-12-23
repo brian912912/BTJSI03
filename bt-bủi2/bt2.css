@@ -1,0 +1,44 @@
+/* Đổi form cho màn hình nhỏ */
+@media only screen and (max-width: 600px) {
+    input {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    button#registerButton {
+      display: none;
+    }
+    button#loginButton {
+      display: block;
+    }
+  }
+  
+  /* Hiển thị nút đăng kí*/
+  @media only screen and (min-width: 768px) {
+    button#registerButton {
+      display: block;
+    }
+    button#loginButton {
+      display: none;
+    }
+  }
+  
+  /* Chỉnh màu sắc và hiệu ứng hover trên màn hình lớn từ 700px */
+  @media only screen and (min-width: 700px) {
+    input, button {
+      background-color: #f2f2f2;
+      border: 1px solid #ccc;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    input:hover, button:hover {
+      background-color: #e0e0e0;
+      color: #333;
+    }
+  }
+  
+/* Xếp Username và Password*/
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
