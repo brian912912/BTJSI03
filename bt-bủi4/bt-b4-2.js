@@ -1,6 +1,6 @@
 class Circle {
     constructor(bankinh) {
-      this.bankinh = bankinh;
+      (this.bankinh = bankinh)
     }
   
     dientich() {
@@ -14,8 +14,7 @@ class Circle {
   
   class Rectangle {
     constructor(chieurong, chieucao) {
-      this.chieurong = chieurong;
-      this.chieucao = chieucao;
+      (this.chieurong = chieurong),(this.chieucao = chieucao)
     }
   
     dientich() {
@@ -29,10 +28,7 @@ class Circle {
   
   class Triangle {
     constructor(canh1, canh2, canhday, chieucaotg) {
-      (this.canh1 = canh1),
-      (this.canh2 = canh2),
-      (this.canhday = canhday),
-      (this.chieucaotg = chieucaotg)
+      (this.canh1 = canh1),(this.canh2 = canh2),(this.canhday = canhday),(this.chieucaotg = chieucaotg)
     }
   
     calculateArea() {

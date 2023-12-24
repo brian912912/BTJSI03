@@ -1,8 +1,6 @@
 class Hocsinh {
     constructor(name) {
-      this.name = name;
-      this.courses = [];
-      this.grades = new Map();
+      (this.name = name),(this.courses = []),(this.grades = new Map())
     }
   
     registerForCourse(course) {
