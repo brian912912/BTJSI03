@@ -1,3 +1,14 @@
+/* 
+1.D
+2.C
+3.B
+4.A
+5.A
+6.A
+7.D
+8.C
+ */
+
 // CÂU 9 xóa ẩn tử k phải number r bình phương lên
 let m = [1, 2, 3, 4, 5, 6, "hh", "9", 80, 100];
 let mbinhphuong = m.filter(item => typeof item === 'number').map(item => Math.pow(item, 2));
